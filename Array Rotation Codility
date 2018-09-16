@@ -13,7 +13,7 @@ int size = A.size();
 
 for(unsigned int i=0 ; i<A.size(); i++)
 {
-    B[(i+K)%size]=A[i%size];
+    B[(i+K)%size]=A[i];
 }
 return B;
 }
