@@ -17,7 +17,7 @@ int minJumps(int * arr, int n)
         if(nextIndex == i)
         {
             maxValueDecay = max(max(--maxValueDecay,0), arr[i]);
-            nextIndex = i+maxv;
+            nextIndex = i+maxValueDecay;
             minJumps++;
             
             if(maxValueDecay == 0)
