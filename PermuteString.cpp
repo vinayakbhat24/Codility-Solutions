@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string>
 
+/*
+Base cases: 
+ A-> A
+ AB-> `A`B, `B`A
+*/
 
 void permuteString(std::string str, std::string  ans)
 {
